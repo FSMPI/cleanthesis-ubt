@@ -1,49 +1,21 @@
 # Clean Thesis
-*-- A Clean LaTeX Style for Thesis Documents --*
-
-## Table of contents
-
-* [About](#about)
-* [Getting started](#getting-started)
-* [Documentation and Support](#documentation-and-support)
-* [Contributing](#contributing)
-* [License Information](#license-information)
+*-- A Clean LaTeX Style for Thesis Documents \*with University of Bayreuth Corporate Design --*
 
 ## About
 
-**Clean, Simple, Elegant**
-*Clean Thesis* is a LaTeX style for thesis documents, developed for my diploma thesis (Diplomarbeit). The style can be understood as my personal compromise — a typical clean looking scientific document combined and polished with minor beautifications.
+This Repository contains a Fork of the Excellent [_Clean Thesis_](https://github.com/derric/cleanthesis) Template made by [Ricardo Langner](https://github.com/derric).
+It has been updated to contain the Coloring Scheme and CI-Guidelines of the University of Bayreuth.
 
-The design of this *Clean Thesis* style is inspired by user guide documents from Apple Inc.
+**Please note**, that this Template is **unofficial** work and as such can contain Errors regarding Formatting and Layout! 
 
-Note: If you are looking for an exact and correct style regarding typographic rules, please have a look at the "[Classic Thesis Style](see http://www.miede.de/#classicthesis)".
-
-**Donation = Postcard**
-Based on the idea of André Miede: If you like the *Clean Thesis* style I would be very pleased about a donation in the form of a POSTCARD. You can find my address at the *Clean Thesis* [website](http://cleanthesis.der-ric.de/) as well as in the [documentation](doc/cleanthesis-doc.pdf). I am going to collect all postcards and exhibit them at the website I mentioned.
-
-**Idea and Inspiration**
-The idea of providing my customized style for thesis documents passed through my mind while writing my own thesis. Motivated and inspired by the superb "[Classic Thesis Style](http://www.miede.de/#classicthesis)" by André Miede (thanks to André for doing a great job) I decided to collect all design and style related functionality in a separate LaTeX style and provide this style to other thesis writers.
-
-## Getting started
-
-* Make sure you have an up-to-date TeX distribution
-* Download the example-thesis from the [releases page](https://github.com/derric/cleanthesis/releases) (file `cleanthesis-incl-example_v****.zip`)
-* [Check out the documentation](doc/cleanthesis-doc.pdf) to learn more about *Clean Thesis* and available package options
-
-## Documentation and Support
-
-The [documentation](doc/cleanthesis-doc.pdf) gives an overview of available package options.
-
-Please use [Stack Exchange](http://tex.stackexchange.com/questions/tagged/cleanthesis) for questions about **using** *Clean Thesis*; and add the tag **cleanthesis** to your question. GitHub issues are for development purposes, e.g, reporting actual bugs or requesting new features.
-
-## Contributing
-
-Did you find an error or a bug? Do you have a feature request? Before opening a [new issue](https://github.com/derric/cleanthesis/issues/new), please check out the list of [existing](https://github.com/derric/cleanthesis/issues) and [closed](https://github.com/derric/cleanthesis/issues?q=is%3Aissue+is%3Aclosed) issues.
+For further information on how to use this Template and / or modifying it, please refer to the [original Repository](https://github.com/derric/cleanthesis).
 
 ## License Information
 
 README.md
 Copyright 2020 R. Langner
+
+Additions regarding the Corporate Design of the University of Bayreuth by M. Fraas (on behalf of _Fachschaft MPI_ - Universität Bayreuth)
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either version 1.3

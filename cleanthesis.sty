@@ -83,9 +83,9 @@
 \setkeys[ct]{cthesis}{colorize=full}
 
 % OPTION colortheme
-% --> values = bluemagenta|bluegreen
-\define@choicekey*[ct]{cthesis}{colortheme}[\val\themenr]{bluemagenta,bluegreen}[bluemagenta]{\def\cthesis@colortheme{\themenr}}
-\setkeys[ct]{cthesis}{colortheme=bluemagenta}
+% --> values = bluemagenta|bluegreen|ubt
+\define@choicekey*[ct]{cthesis}{colortheme}[\val\themenr]{bluemagenta,bluegreen,ubt}[ubt]{\def\cthesis@colortheme{\themenr}}
+\setkeys[ct]{cthesis}{colortheme=ubt}
 
 % OPTION bibsys
 % --> values = biber|bibtex
@@ -203,11 +203,16 @@
 	\cthesissetcolor{cmyk}{.61, .47, .03, 0}{.48, .05, .91, 0}%
 }
 
+% sets the Uni-Bayreuth (ubt) color theme (green)
+\def\cthesissetcolorubt{
+	\cthesissetcolor{cmyk}{.9, 0, .7, 0}{1, .46, 0, .34}
+}
+
 % defines general colors
 \definecolor{ctcolorblack}{gray}{0}
-\definecolor{ctcolorgray}{gray}{.5}
-\definecolor{ctcolorgraylight}{gray}{.8}
-\definecolor{ctcolorgraylighter}{gray}{.95}
+\definecolor{ctcolorgray}{cmyk}{.15, 0, 0, .8}
+\definecolor{ctcolorgraylight}{cmyk}{.08, 0, 0, .54}
+\definecolor{ctcolorgraylighter}{cmyk}{0, 0, .03, .08}
 
 % sets the color theme regarding the given package option colortheme
 \ifcase\cthesis@colortheme
@@ -216,9 +221,12 @@
 \or
 	% case 1 (colortheme == bluegreen)
 	\cthesissetcolorbluegreen
+\or
+	% case 2 (colortheme == ubt)
+	\cthesissetcolorubt
 \else
 	% all other cases
-	\cthesissetcolorbluemagenta
+	\cthesissetcolorubt
 \fi
 
 
